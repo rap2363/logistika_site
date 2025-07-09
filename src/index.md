@@ -10,8 +10,3 @@ You can type here! Wait really...
 
 ## Posts
 
-{%- for post in collections.posts %}
-- [{{ post.data.title }}]({{ post.url}})
-{%- endfor %}
-
-_Built with {{ eleventy.generator }}_
