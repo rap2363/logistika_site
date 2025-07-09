@@ -1,12 +1,11 @@
 ---
-subject: Friends!
+title: Home
+layout: layouts/base.njk
+navOrder: 1
+navTitle: Home
+permalink: /
 ---
-# Hello {{ subject }}
 
-This is the future home of a porkbun site of some kind. Please make a note of it.
+# Logistika
 
-- [Markdown](/docs/languages/markdown/)
-- [Liquid](/docs/languages/liquid/)
-
-## Posts
-
+Welcome to my home page. I solve mathematical problems at scale.

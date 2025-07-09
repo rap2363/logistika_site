@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <nav class="nav-tabs">
+      <ul>
+        
+         <li class="">
+            <a href="/">Home</a>
+          </li>
+        
+         <li class="">
+            <a href="/about/">About</a>
+          </li>
+        
+         <li class="">
+            <a href="/contact/">Contact</a>
+          </li>
+        
+         <li class="active">
+            <a href="/blog/">Blog</a>
+          </li>
+        
+      </ul>
+    </nav>
+
+    <button id="dark-mode-toggle" style="position: absolute; top: 1rem; right: 1rem;">
+      🌓 Toggle Dark Mode
+    </button>
+
+    <h1>Posts</h1>
+<p>I'll put something here I promise.</p>
+
+
+    <script>
+      const toggle = document.getElementById('dark-mode-toggle');
+      const body = document.body;
+      console.log(body);
+      // Load mode from localStorage
+      if (localStorage.getItem('theme') === 'dark') {
+        body.classList.add('dark');
+      }
+
+      toggle.addEventListener('click', () => {
+        const isDark = body.classList.toggle('dark');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      });
+    </script>
+  </body>
+</html>
