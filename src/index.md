@@ -3,7 +3,7 @@ subject: World!
 ---
 # Hello {{ subject }}
 
-You can type here! Wait really...
+You can type here, lol!
 
 - [Markdown](/docs/languages/markdown/)
 - [Liquid](/docs/languages/liquid/)
