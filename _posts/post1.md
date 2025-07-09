@@ -1,5 +1,5 @@
 ---
-title: First blog post ⬅️
+title: First blog post!
 tags: posts
 ---
 # {{ title }}
