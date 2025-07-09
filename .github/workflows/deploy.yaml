@@ -1,0 +1,32 @@
+name: Deploy Eleventy Site
+
+on:
+  push:
+    branches: [main]  # or 'master' or whatever your default branch is
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build site with Eleventy
+        run: npx eleventy
+
+      - name: Deploy to deploy branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: deploy
+          force_orphan: true  # This creates a clean branch with only the static files
