@@ -8,4 +8,7 @@ permalink: /contact/
 
 # Get in Touch
 
-Have a project in mind or want 1‑on‑1 coaching? Drop me a note at rohan@rparanjpe.com
+Have a project in mind or want 1‑on‑1 coaching?
+
+**Email**: rohan@rparanjpe.com
+

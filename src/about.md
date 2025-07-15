@@ -6,6 +6,12 @@ navTitle: About
 permalink: /about/
 ---
 
+# Biodata
+
+[LinkedIn]({{ linkedin }})
+
+[Substack](https://substack.com/@rap2363)
+
 # About Me
 
 I was born and raised in Texas and graduated with a degree in Physics from the University of Texas at Austin in 2012. I came to Stanford for graduate school to study Electrical Engineering and was convinced I was going to get a Ph.D. and work in a lab somewhere, but the Valley had other plans for me.
