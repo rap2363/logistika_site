@@ -15,26 +15,6 @@
         {% endfor %}
       </ul>
     </nav>
-
-    <button id="dark-mode-toggle" style="position: absolute; top: 1rem; right: 1rem;">
-      🌓 Toggle Dark Mode
-    </button>
-
     {{ content | safe }}
-
-    <script>
-      const toggle = document.getElementById('dark-mode-toggle');
-      const body = document.body;
-      console.log(body);
-      // Load mode from localStorage
-      if (localStorage.getItem('theme') === 'dark') {
-        body.classList.add('dark');
-      }
-
-      toggle.addEventListener('click', () => {
-        const isDark = body.classList.toggle('dark');
-        localStorage.setItem('theme', isDark ? 'dark' : 'light');
-      });
-    </script>
   </body>
 </html>
