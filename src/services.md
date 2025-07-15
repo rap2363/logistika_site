@@ -6,8 +6,6 @@ navTitle: Services
 permalink: /services/
 ---
 
-# Services
-
 ## Consulting
 
 **Technical Advisory**: I'll work with you on technical strategy, roadmapping, and scaling your algorithms for the real world.
