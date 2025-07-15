@@ -1,6 +1,7 @@
-/* Light mode (default) */
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;600&display=swap");
+
 body {
-	font-family: Tahoma,Verdana,sans-serif; 
+	font-family: "Kumbh Sans", Arial, sans-serif; 
     max-width: 700px;
     margin: 2rem auto;
     padding: 1rem;
@@ -10,12 +11,11 @@ body {
 }
   
 h1 {
-    color: #007acc;
+    color: #1e84c8;
 }
 
-body.dark {
-    background-color: #363636;
-    color: #e0e0e0;
+h2 {
+    color: #1e84c8;
 }
 
 .nav-tabs {
