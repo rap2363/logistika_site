@@ -10,7 +10,7 @@
       <ul>
         {% for item in navigation | sort(attribute="order") %}
          <li class="{% if page.url == item.url %}active{% endif %}">
-            <a href="{{ item.url }}">{{ item.title }}</a>
+            <a href="{{ item.url }}" target="{{ item.target }}">{{ item.title }}</a>
           </li>
         {% endfor %}
       </ul>
