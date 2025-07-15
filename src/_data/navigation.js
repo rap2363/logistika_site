@@ -3,5 +3,5 @@ module.exports = [
     { url: "/contact/", title: "Contact", order: 2 },
     { url: "/services/", title: "Services", order: 3 },
     { url: "https://substack.com/@rap2363", title: "Blog", order: 4 },
-    { url: "/about/", title: "Rohan", order: 5 },
+    { url: "/about/", title: "About", order: 5 },
 ];

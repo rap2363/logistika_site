@@ -1,8 +1,8 @@
 ---
-title: Rohan
+title: About
 layout: layouts/base.njk
 navOrder: 5
-navTitle: Rohan
+navTitle: About
 permalink: /about/
 ---
 
