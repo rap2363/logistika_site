@@ -7,10 +7,9 @@ permalink: /about/
 ---
 
 # Biodata
+<a href="https://www.linkedin.com/in/rohan-paranjpe-17996858/" target="_blank">LinkedIn</a>
 
-[LinkedIn]({{ linkedin }})
-
-[Substack](https://substack.com/@rap2363)
+<a href="https://substack.com/@rap2363" target="_blank">Substack</a>
 
 # About Me
 
