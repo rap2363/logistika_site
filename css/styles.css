@@ -18,6 +18,11 @@ h2 {
     color: #1e84c8;
 }
 
+textarea {
+    width: 400px;
+    height: 150px;
+}
+
 .nav-tabs {
     background: #eee;
     border-bottom: 2px solid #ccc;
