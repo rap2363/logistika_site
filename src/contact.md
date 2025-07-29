@@ -23,7 +23,7 @@ Or if you have a specific request:
   <select name="interest" id="interest" required>
     <option value="" disabled selected hidden>– Select –</option>
     <option value="Technical Advisory/Consulting">Technical Advisory/Consulting</option>
-    <option value="Interview Preparation">Interview Preperation</option>
+    <option value="Interview Preparation">Interview Preparation</option>
     <option value="Coaching/Learning">Coaching/Learning</option>
     <option value="other">Other</option>
   </select>
